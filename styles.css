@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-item:hover {
+    color: #f0a500;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .navbar-item {
+        padding: 10px;
+    }
+}
+
+
+
+
+.content-section {
+    display: none;
+    text-align: center;
+    
+}
+
+.content-section.active {
+    display: block;
+}
+
+.content-section.active {
+  width: 85%;
+            margin: 0 auto;
+            border: 1px solid #000;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.p {
+  margin: 10px 0;
+}
+
+.ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.li {
+  margin: 5px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    position: fixed;
+    top: 50%;
+    left: 2px; /* Ubah left ke 20px */
+    transform: translateY(60%); /* Untuk posisi di tengah */
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-btn {
+    margin: 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 34px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #0056b3;
+}
+
+.kategori-content {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kategori-content.active {
+    display: block;
+}
+
+.content-section {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 93%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 5px 20px;
+    width: 88%;
+    text-align: center;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.icon-link {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.icon-link:last-child {
+    margin-right: 0;
+}
+
+/* Font Awesome icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.menu-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: transparent; /* Mengubah latar belakang menjadi transparan */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-btn.active {
+    background-color: #ddd;
+}
+/* styles.css */
+.mySlides {display:none;}
+.page {
+            display: none;
+            
+        }
+        .active {
+            display: block;
+        }
+        
+    .pcsx {
+      display: none;
+    }
+    
+    
